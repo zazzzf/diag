@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2021-09-06T08:44:54.904Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" version="14.9.2" etag="kfm8tjciQPfw5ZR9GWa9" type="github"><diagram id="YweNbPD35obu_0gSzMOk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-06T10:45:25.698Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36" etag="BRCdf45qTmACYj2D28wk" version="14.9.2" type="github">
+  <diagram id="YweNbPD35obu_0gSzMOk" name="Page-1">
+    <mxGraphModel dx="1186" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-8" value="连接websocket" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5yhG5tYdyNDORZ4wB-IZ-2" target="5yhG5tYdyNDORZ4wB-IZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-2" value="进入播放页面" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;shadow=1;sketch=0;glass=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5yhG5tYdyNDORZ4wB-IZ-3" target="5yhG5tYdyNDORZ4wB-IZ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-3" value="&lt;span&gt;绘制播放页面，加载视频基本信息&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="80" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5yhG5tYdyNDORZ4wB-IZ-5" target="5yhG5tYdyNDORZ4wB-IZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5yhG5tYdyNDORZ4wB-IZ-5" target="5yhG5tYdyNDORZ4wB-IZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-5" value="loading" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;glass=0;sketch=0;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5yhG5tYdyNDORZ4wB-IZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-11" value="loading结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;glass=0;sketch=0;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5yhG5tYdyNDORZ4wB-IZ-14" target="5yhG5tYdyNDORZ4wB-IZ-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-14" value="loading超时" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;shadow=1;glass=0;sketch=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="430" y="50" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-17" value="错误弹框" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="650" y="140" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-20" value="重新连接" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="750" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5yhG5tYdyNDORZ4wB-IZ-21" value="关闭弹框" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;glass=0;sketch=0;strokeColor=#000000;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="230" width="70" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
